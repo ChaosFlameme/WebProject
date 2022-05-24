@@ -4,23 +4,3 @@ body {
 	color: rgb(255, 21, 0);
   margin: 0;
 }
-/* Color Theme Swatches in Hex */
-.BlueAndPurple-1-hex { color: #7502A8; }
-.BlueAndPurple-2-hex { color: #3D02B3; }
-.BlueAndPurple-3-hex { color: #090C9C; }
-.BlueAndPurple-4-hex { color: #0241B3; }
-.BlueAndPurple-5-hex { color: #0175A8; }
-
-/* Color Theme Swatches in RGBA */
-.BlueAndPurple-1-rgba { color: rgba(117, 2, 168, 1); }
-.BlueAndPurple-2-rgba { color: rgba(61, 2, 179, 1); }
-.BlueAndPurple-3-rgba { color: rgba(9, 12, 156, 1); }
-.BlueAndPurple-4-rgba { color: rgba(2, 65, 179, 1); }
-.BlueAndPurple-5-rgba { color: rgba(1, 117, 168, 1); }
-
-/* Color Theme Swatches in HSLA */
-.BlueAndPurple-1-hsla { color: hsla(281, 97, 33, 1); }
-.BlueAndPurple-2-hsla { color: hsla(260, 97, 35, 1); }
-.BlueAndPurple-3-hsla { color: hsla(238, 89, 32, 1); }
-.BlueAndPurple-4-hsla { color: hsla(218, 97, 35, 1); }
-.BlueAndPurple-5-hsla { color: hsla(198, 98, 33, 1); }
