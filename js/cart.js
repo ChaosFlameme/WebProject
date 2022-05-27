@@ -100,7 +100,7 @@ function addItemToCart(title,price,imageSrc){
                         <p class="cart-item-title">${title}</p>
                         <small class="cart-price">${price}</small>
                         <br>
-                        <button class="btn-1 btn-remove" type="button">Remove</button>
+                        <button class="btn btn-1 btn-remove" type="button">Remove</button>
                     </div>
                 </td>
                 <td><input class="cart-quantity-input" type="number" value="1"></td>
