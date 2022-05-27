@@ -2,9 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-   
 }
-
 
 .categories{
     margin: auto;
@@ -17,7 +15,7 @@
 
 
 
-.row{
+.shop-items{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -50,6 +48,7 @@
     padding:8px 30px;
     margin:10px 0;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .btn-2{
@@ -133,7 +132,7 @@ table{
     border-collapse: collapse;
 }
 
-.cart-info{
+.cart-item{
     display: flex;
     flex-wrap: wrap;
     
@@ -187,27 +186,6 @@ th:last-child{
     text-align: right;
 }
 
-/*---Not fully working yet---*/
-/*----media query for less than 600 screen size---*/
-@media only screen and (max-width:600px){
-    .row{
-        text-align: center;
-    }
-    .col-2, .col-4{
-        flex-basis: 100%;
-    }
-    .row{
-        text-align: left;
-    }
-    .col-2{
-        padding:20px 0;
-    }
-    h1{
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-    .cart-info p{
-        display: none;
-    }
+.just-info{
+    display: none;
 }

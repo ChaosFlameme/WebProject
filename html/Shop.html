@@ -6,10 +6,9 @@
     <title>Shop</title>
     <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/cart.js" async></script>
 
 </head>
-
-
 
 <body>
     <div class="header">
@@ -28,102 +27,128 @@
     <div class="categories">
         <h2 class="sub-title">Present for you</h2>
 
-        <div class="row">
-            <div class="col-2">
-                <img src="../images/pc-1.jpeg">
-                <h4>Cheap Monitor</h4>
-                <p>$4.99</p>
-                <a href="" class="btn-2">Add to cart</a>
+        <div class="shop-items">
+            <div class="col-2 shop-item">
+                <img class="shop-item-image" src="../images/pc-1.jpeg">
+                <h4 class="shop-item-title">Cheap Monitor</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$4.99</p>
+                    <button class="btn btn-1 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <div class="col-2">
-                <img src="../images/pc-1.jpeg">
-                <h4>Not Cheap Monitor</h4>
-                <p>$9999.99</p>
-                <a href="" class="btn-2">Add to cart</a>
+            <div class="col-2 shop-item">
+                <img class="shop-item-image" src="../images/pc-1.jpeg">
+                <h4 class="shop-item-title">Not Cheap Monitor</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$999.99</p>
+                    <button class="btn btn-1 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
         </div>
 
     </div>
 
-
-
     <!---Featured products-->
 
     <div class="small-container">
         <h2 class="sub-title">Featured Products</h2>
-        <div class="row">
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Chad RGB</h4>
-                <p>$500.00</p>
-                <a href="" class="btn-2">Add to cart</a>
+        <div class="shop-items">
+            <div class="col-4 shop-item">
+                <img class="shop-item-image" src="../images/pc-2.jpeg">
+                <h4 class="shop-item-title">Chad RGB</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$500.00</p>
+                    <button class="btn btn-2 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Bro RGB</h4>
-                <p>$50.00</p>
-                <a href="" class="btn-2">Add to cart</a>
+            <div class="col-4 shop-item">
+                <img class="shop-item-image" src="../images/pc-2.jpeg">
+                <h4 class="shop-item-title">Noob RGB</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$500.00</p>
+                    <button class="btn btn-2 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Cool RGB</h4>
-                <p>$5000.00</p>
-                <a href="" class="btn-2">Add to cart</a>
-            </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Epic RGB</h4>
-                <p>$50000.00</p>
-                <a href="" class="btn-2">Add to cart</a>
-            </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Chad RGB</h4>
-                <p>$500.00</p>
-                <a href="" class="btn-2">Add to cart</a>
-            </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Bro RGB</h4>
-                <p>$50.00</p>
-                <a href="" class="btn-2">Add to cart</a>
-            </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Cool RGB</h4>
-                <p>$5000.00</p>
-                <a href="" class="btn-2">Add to cart</a>
-            </div>
-            <div class="col-4">
-                <img src="../images/pc-2.jpeg">
-                <h4>Epic RGB</h4>
-                <p>$50000.00</p>
-                <a href="" class="btn-2">Add to cart</a>
+            <div class="col-4 shop-item">
+                <img class="shop-item-image" src="../images/pc-2.jpeg">
+                <h4 class="shop-item-title">Avg RGB</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$500.00</p>
+                    <button class="btn btn-2 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
+            </div><div class="col-4 shop-item">
+                <img class="shop-item-image" src="../images/pc-2.jpeg">
+                <h4 class="shop-item-title">Enjoyer RGB</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$500.00</p>
+                    <button class="btn btn-2 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
         </div>
     </div>
 
     <!--Special offer-->
     <div class="offer">
-
-        <div class="row">
+        <div class="shop-items shop-item">
             <div class="col-2">
-                <img src="../images/g-card.jpeg">
+                <img class="shop-item-image" src="../images/g-card.jpeg">
             </div>
             <div class="col-2">
-                <h4>Exculsively offer</h4>
-                <h1>Graphics Card</h1>
+                <img class="shop-item-image just-info" src="../images/g-card.jpeg">
+                <h4 class="promotion-title">Exculsively offer</h4>
+                <h1 class="shop-item-title">Graphics Card</h1>
                 <small>The WINDFORCE 3X cooling system features 3x 100mm unique blade fans, alternate spinning,
                     vapor chamber, 8 composite copper heat pipes, 3D active fan and Screen cooling, which
                     together
                     provide high efficiency heat dissipation.<br>
                 </small>
-
-                <a href="" class="btn-1">Buy Now &#8594;</a>
+                <div class="shop-item-details">
+                    <p class="shop-item-price">$499.99</p>
+                    <button class="btn btn-1 add-to-cart-button" type="button">ADD TO CART</button>
+                </div>
             </div>
         </div>
-
     </div>
+
+    <!--Cart-->
+    <section class="small-container content-section">
+        <h2 class="section-header">CART</h2>
+        <table class="cart-table" id="cart-check-table">
+            <tr class="cart-row">
+                <th class="cart-item-title cart-header cart-col">Product</th>
+                <th class="cart-quantity cart-header cart-col">Quantity</th>
+                <th class="cart-price cart-header cart-col">Total</th>
+            </tr>
+
+            
+            <!-- <tr class="cart-row">
+                <td class="cart-item">
+                    <img class="cart-item-image" src="../images/g-card.jpeg">
+                    <div class="cart-info">
+                        <p class="cart-item-title">Graphic card</p>
+                        <small class="cart-price">$50.00</small>
+                        <br>
+                        <button class="btn-1 btn-remove" type="button">Remove</button>
+                    </div>
+                </td>
+                <td><input class="cart-quantity-input" type="number" value="1"></td>
+                <td class="cart-price">$50.00</td>
+            </tr> -->
+            
+
+        </table>
+        <div class="total-price">
+            <table>
+                <tr class="cart-row">
+                    <td class="cart-total-title">Total</td>
+                    <td class="cart-total-price">$120.00</td>
+                </tr>
+            </table>
+        </div>
+        <button class="btn btn-1 btn-checkout" type="button">CHECKOUT</button>
+
+    </section>
+
 
 </body>
 
