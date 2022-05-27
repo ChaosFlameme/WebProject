@@ -43,6 +43,12 @@
     margin-bottom: 10px;
 }
 
+.col-2 small{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+
 .special-offer h4,.special-offer p{
     text-align: center;
 }
