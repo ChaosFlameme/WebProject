@@ -1,81 +1,10 @@
 
 body {
-	background: rgb(235, 232, 239);
+  background: rgb(235, 232, 239);
   margin: 0px;
 }
 
 
-.header{
-    z-index: 10;
-    border-style: inset;
-    border: 4px solid transparent;
-    padding: 0;
-    position: sticky; top: 0;
-  
-    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
-  }
-  
-  
-  .header ul a img {
-    width: auto;
-    height: 100px;
-  }
-  
-  a:link {
-    text-decoration: none;
-    
-  }
-  
-  .header ul{
-    margin: 0;
-    padding: 0;
-  
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  .header ul li{
-    max-width: 800px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: table; 
-    margin: 0 auto;
-    text-align: center;
-  
-  }
-  
-  .header li{
-    margin-top: 20px;
-    font-size: large;
-    padding: 35px 2px 15px 2px; /*top right bottom left*/
-    font-weight: bold;
-  
-  }
-  
-  .header li a{
-  
-    background: -webkit-linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-    background-color: #b8c6db;
-  ;
-  
-  
-      padding: 1em 1.5em;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-  
-  .header li a:hover{
-    background: -webkit-linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-  
-    }
 
 
 .sub-title{
@@ -111,6 +40,7 @@ body {
 
 .small-container:hover{
   transform:scale(1.15);
+  transition-duration: 500ms;
 }
 
 .installation{
@@ -119,7 +49,7 @@ body {
     padding-right: 25px;
     padding-top: 5%;
     padding-bottom: 5%;
-    background: radial-gradient(#fff,#3e7cb1);
+    background: linear-gradient(to top left,#ffffff 50%,rgb(107, 3, 131) 90%);
 }
 
 .reparation{
@@ -128,7 +58,7 @@ body {
     padding-right: 25px;
     padding-top: 5%;
     padding-bottom: 5%;
-    background: radial-gradient(#fff,#043a69);
+    background-color: white;
 }
 
 .news{
@@ -137,7 +67,8 @@ body {
     padding-right: 25px;
     padding-top: 5%;
     padding-bottom: 5%;
-    background: radial-gradient(#fff,#3e7cb1);
+    /*background: linear-gradient(#0725B5,#0175A8,#08B8BF);*/
+    background-color: white;
 }
 
 .rental{
@@ -146,7 +77,8 @@ body {
     padding-right: 25px;
     padding-top: 5%;
     padding-bottom: 4%;
-    background: radial-gradient(#fff,#043a69);
+    background-color: #fff;
+    background: linear-gradient(to bottom right,#fff 50%,#0725B5 90%);
 }
 
 .row{
@@ -164,15 +96,16 @@ body {
 }
 
 .col-1 p{
-    background-color: rgb(192, 192, 192);
+    background-color : rgba(203, 208, 214, 0.4);
     padding-left: 10px;
     margin-left: 50px;
     border-radius: 10px;
+    font-weight: bold;
     flex-basis: 30%;
 }
 
 .col-1 p:hover{
-  background-color: rgb(112, 128, 144);
+  background-color : rgba(255,255,255, 0.4);
 }
 
 

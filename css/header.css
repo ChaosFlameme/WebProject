@@ -7,13 +7,16 @@
 
   background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 
-  z-index: 10;
+  z-index: 99;
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
 
 
-.header ul a img {
+
+
+.header img {
   width: auto;
-  height: 100px;
+  height: 110px;
 }
 
 a:link {
@@ -26,49 +29,45 @@ a:link {
   padding: 0;
 
   display: flex;
-  justify-content: center;
+
+  font-size: large;
+  padding: 15px 2px 15px 2px; /*top right bottom left*/
+  font-weight: bold;
+
 
 }
 
 .header ul li{
   max-width: 800px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: table; 
   margin: 0 auto;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-}
+  
+  }
 
-.header li{
-  margin-top: 20px;
-  font-size: large;
-  padding: 35px 2px 15px 2px; /*top right bottom left*/
-  font-weight: bold;
 
-}
 
 .header li a{
-
+  font-family: Arial, Helvetica, sans-serif;
   background: -webkit-linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   background-color: #b8c6db;
-;
 
-
-    padding: 1em 1.5em;
-    text-decoration: none;
-    text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+    
   }
 
   .header li a:hover{
     background: -webkit-linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
   }
 

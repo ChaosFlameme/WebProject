@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  background-image: url("../images/fond.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.content{
+
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.middle {
+    max-width: 100%;
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+.middle img{
+    max-width: 100%;
+    max-height: 400px;
+    padding:10px 0;
+    border-radius: 5%;
+}
+
+.script{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+
+.row{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-1{
+    flex-basis: 30%;
+    min-width: 250px;
+    min-height: 380px;
+    margin-bottom: 15px;
+    padding:10px 0;
+    background-color: rgba( 0, 0, 0, 0.4);
+    border-radius:15px;
+    font-size: 18px;
+}
+
+.col-1 h1{
+    margin-left: 10px;
+    text-align: center;
+    color: #090c9c;
+}
+
+.col-1 a:hover{
+    color: #7502a8;
+}
+
+.service-proposed a:hover{
+    color: #090c9c;
+}
+
+.shop ul{
+    padding-left: 25%;
+}
