@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
+/*categories for the first part of the page in shop*/
 .categories{
     margin: auto;
     background: linear-gradient( #1637F2,#F20CCC);
     /*#F20CCC #3DE0F2*/
 }
-
+/*Change the text color in categories part*/
 .categories .col-2 h4,.categories .col-2 p{
     color:#fff;
 }
 
-
-
+/*The whole common set for each group of shop-items, we need them to be dynamicly modified by change the size of the page*/
 .shop-items{
     display: flex;
     align-items: center;
@@ -23,6 +23,7 @@
     justify-content: space-around;
 }
 
+/*col-2 for the set of 2 items in line, used in the categories and spcial offer part*/
 .col-2{
     flex-basis: 36%;
     min-width: 250px;
@@ -43,7 +44,6 @@
     margin-bottom: 10px;
 }
 
-
 .special-offer h4,.special-offer p{
     text-align: center;
 }
@@ -54,6 +54,7 @@
     margin-top: 10px;
 }
 
+/*Two style of buttons, though only difference is the padding to make it looks more comfortable*/
 .btn-1{
     display: inline-block;
     background: #090c9b;
@@ -61,7 +62,6 @@
     padding:8px 30px;
     margin:10px 0;
     border-radius: 30px;
-    
 }
 
 .btn-2{
@@ -76,7 +76,7 @@
 .btn-checkout{
     float: right;
 }
-
+/*General set for when cursor moves to the button becomes a pointer*/
 .btn{
     cursor: pointer;
 }
@@ -85,6 +85,7 @@
     background: #3DE0F2;
 }
 
+/*Make the content won't be spread to the edge of the page*/
 .small-container{
     max-width: 1200px;
     margin:auto;
@@ -92,6 +93,7 @@
     padding-right: 25px;
 }
 
+/*For the items which are 4 in a line*/
 .col-4{
     flex-basis: 25%;
     padding:10px;
@@ -111,19 +113,19 @@
     font-size: 14;
 }
 
+/*A little up animaiton when hover*/
 .col-4:hover{
     transform: translateY(-5px);
 }
 
+/*For the title of each part*/
 .sub-title{
     text-align: center;
     margin: 0 auto 20px;
     position:relative;
     line-height: 70px;
 }
-
-
-
+/*The blue line under the title*/
 .sub-title::after{
     content:'';
     background: #2F02B3;
@@ -141,6 +143,7 @@ h4{
     font-weight:bold;
 }
 
+/*Setting for Special offer part*/
 .offer{
     background: linear-gradient(to bottom left,#fff 50%,#05F2F2 50%);
     margin-top: 60px;
@@ -163,7 +166,6 @@ table{
 .cart-item{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 th{
@@ -178,6 +180,7 @@ td{
     padding:10px 5px;
     
 }
+
 td input{
     width:45px;
     height: 30px;
@@ -206,6 +209,7 @@ td img{
     max-width: 400px;
 }
 
+/*Make the total column align to right*/
 td:last-child{
     text-align: right;
 }
@@ -222,6 +226,8 @@ th:last-child{
     background-color: #F20CCC;
 }
 
+/*This one is the image for special offer part, cause in that part we seprate the image and the text with two div,*/
+/*So I add the address of the image to the text part to let the add-to-cart button works normal as the others*/
 .just-info{
     display: none;
 }

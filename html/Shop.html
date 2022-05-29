@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+    <!--The page of the shops, can add items to the cart at the bottom of the page, then calculate the total price or remove items-->
 
 <head>
     <meta charset="UTF-8">
@@ -23,11 +24,11 @@
         </ul>
     </div>
 
-    <!---Categories-->
+    <!---The first Categories-->
     <div class="categories">
         <h2 class="sub-title" style="color: #F20CCC">Check Our Complete Computer Sets!</h2>
-
         <div class="shop-items special-offer">
+            <!--The two items we showed in line-->
             <div class="col-2 shop-item">
                 <img class="shop-item-image" src="../images/pc-2.jpg" alt="Mac">
                 <h4 class="shop-item-title">Deluxe Apple Set</h4>
@@ -48,8 +49,7 @@
 
     </div>
 
-    <!---Featured products-->
-
+    <!---Featured products: The main list of products-->
     <div class="small-container">
         <h2 class="sub-title">Featured Products</h2>
         <div class="shop-items">
@@ -120,9 +120,10 @@
         </div>
     </div>
 
-    <!--Special offer-->
+    <!--Special offer: The highlighted product, with one big image and the description aside-->
     <div class="offer">
         <div class="shop-items shop-item">
+            <!--Just consider them as two seprate items in one line for easier css formulation-->
             <div class="col-2">
                 <img class="shop-item-image" src="../images/pc-chad.webp" alt="Alienware laptop">
             </div>
@@ -147,6 +148,7 @@
     <!--Cart-->
     <section class="small-container content-section">
         <h2 class="sub-title">CART</h2>
+        <!--Using the table for cart, easier to modifier and achieve the requirement for the project-->
         <table class="cart-table" id="cart-check-table">
             <tr class="cart-row">
                 <th class="cart-item-title cart-header cart-col">Product</th>
@@ -154,7 +156,7 @@
                 <th class="cart-price cart-header cart-col">Total</th>
             </tr>
 
-
+            <!--Here's an example about how should an item will be added into the cart-->
             <!-- <tr class="cart-row">
                 <td class="cart-item">
                     <img class="cart-item-image" src="../images/g-card.jpeg">
@@ -169,8 +171,8 @@
                 <td class="cart-price">$50.00</td>
             </tr> -->
 
-
         </table>
+        <!--The part of total sum and checkout-->
         <div class="total-price">
             <table>
                 <tr class="cart-row">
